@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		216A23CB1AB49A85002BD14C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 216A23CA1AB49A85002BD14C /* main.m */; };
+		216A23CE1AB49A85002BD14C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 216A23CD1AB49A85002BD14C /* AppDelegate.m */; };
+		216A23D11AB49A85002BD14C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 216A23D01AB49A85002BD14C /* ViewController.m */; };
+		216A23D41AB49A85002BD14C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216A23D21AB49A85002BD14C /* Main.storyboard */; };
+		216A23D61AB49A85002BD14C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216A23D51AB49A85002BD14C /* Images.xcassets */; };
+		216A23D91AB49A85002BD14C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 216A23D71AB49A85002BD14C /* LaunchScreen.xib */; };
+		216A23E51AB49A85002BD14C /* SolarSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216A23E41AB49A85002BD14C /* SolarSystemTests.m */; };
+		216A23F01AB49D52002BD14C /* ImageTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 216A23EF1AB49D52002BD14C /* ImageTexture.m */; };
+		216A23F31AB49D77002BD14C /* SphereModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 216A23F21AB49D77002BD14C /* SphereModel.m */; };
+		216A23FA1AB49D92002BD14C /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 216A23F41AB49D92002BD14C /* earth.png */; };
+		216A23FB1AB49D92002BD14C /* Mars.png in Resources */ = {isa = PBXBuildFile; fileRef = 216A23F51AB49D92002BD14C /* Mars.png */; };
+		216A23FC1AB49D92002BD14C /* Mercury.png in Resources */ = {isa = PBXBuildFile; fileRef = 216A23F61AB49D92002BD14C /* Mercury.png */; };
+		216A23FD1AB49D92002BD14C /* Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 216A23F71AB49D92002BD14C /* Moon.png */; };
+		216A23FE1AB49D92002BD14C /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 216A23F81AB49D92002BD14C /* Sun.png */; };
+		216A23FF1AB49D92002BD14C /* Venus.png in Resources */ = {isa = PBXBuildFile; fileRef = 216A23F91AB49D92002BD14C /* Venus.png */; };
+		216A24011AB4A4E1002BD14C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216A24001AB4A4E0002BD14C /* OpenGLES.framework */; };
+		216A24031AB4A4ED002BD14C /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216A24021AB4A4ED002BD14C /* GLKit.framework */; };
+		216A24051AB4A4F6002BD14C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216A24041AB4A4F6002BD14C /* UIKit.framework */; };
+		216A24071AB4A500002BD14C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216A24061AB4A500002BD14C /* CoreGraphics.framework */; };
+		216A24091AB4A50D002BD14C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216A24081AB4A50D002BD14C /* Foundation.framework */; };
+		216A240E1AB4A644002BD14C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216A240A1AB4A644002BD14C /* Main_iPad.storyboard */; };
+		216A240F1AB4A644002BD14C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216A240C1AB4A644002BD14C /* Main_iPhone.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		216A23DF1AB49A85002BD14C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 216A23BD1AB49A85002BD14C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 216A23C41AB49A85002BD14C;
+			remoteInfo = SolarSystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		216A23C51AB49A85002BD14C /* SolarSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		216A23C91AB49A85002BD14C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		216A23CA1AB49A85002BD14C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		216A23CC1AB49A85002BD14C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		216A23CD1AB49A85002BD14C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		216A23CF1AB49A85002BD14C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		216A23D01AB49A85002BD14C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		216A23D31AB49A85002BD14C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		216A23D51AB49A85002BD14C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		216A23D81AB49A85002BD14C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		216A23DE1AB49A85002BD14C /* SolarSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolarSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		216A23E31AB49A85002BD14C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		216A23E41AB49A85002BD14C /* SolarSystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolarSystemTests.m; sourceTree = "<group>"; };
+		216A23EE1AB49D52002BD14C /* ImageTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTexture.h; sourceTree = "<group>"; };
+		216A23EF1AB49D52002BD14C /* ImageTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTexture.m; sourceTree = "<group>"; };
+		216A23F11AB49D77002BD14C /* SphereModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereModel.h; sourceTree = "<group>"; };
+		216A23F21AB49D77002BD14C /* SphereModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereModel.m; sourceTree = "<group>"; };
+		216A23F41AB49D92002BD14C /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = earth.png; path = data/earth.png; sourceTree = "<group>"; };
+		216A23F51AB49D92002BD14C /* Mars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mars.png; path = data/Mars.png; sourceTree = "<group>"; };
+		216A23F61AB49D92002BD14C /* Mercury.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mercury.png; path = data/Mercury.png; sourceTree = "<group>"; };
+		216A23F71AB49D92002BD14C /* Moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Moon.png; path = data/Moon.png; sourceTree = "<group>"; };
+		216A23F81AB49D92002BD14C /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sun.png; path = data/Sun.png; sourceTree = "<group>"; };
+		216A23F91AB49D92002BD14C /* Venus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Venus.png; path = data/Venus.png; sourceTree = "<group>"; };
+		216A24001AB4A4E0002BD14C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		216A24021AB4A4ED002BD14C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		216A24041AB4A4F6002BD14C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		216A24061AB4A500002BD14C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		216A24081AB4A50D002BD14C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		216A240B1AB4A644002BD14C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		216A240D1AB4A644002BD14C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		21CAEBCA1ABB3AFC003CF69B /* SolarSystem.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SolarSystem.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		216A23C21AB49A85002BD14C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216A24091AB4A50D002BD14C /* Foundation.framework in Frameworks */,
+				216A24071AB4A500002BD14C /* CoreGraphics.framework in Frameworks */,
+				216A24051AB4A4F6002BD14C /* UIKit.framework in Frameworks */,
+				216A24031AB4A4ED002BD14C /* GLKit.framework in Frameworks */,
+				216A24011AB4A4E1002BD14C /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216A23DB1AB49A85002BD14C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		216A23BC1AB49A85002BD14C = {
+			isa = PBXGroup;
+			children = (
+				216A24081AB4A50D002BD14C /* Foundation.framework */,
+				216A24061AB4A500002BD14C /* CoreGraphics.framework */,
+				216A24041AB4A4F6002BD14C /* UIKit.framework */,
+				216A24021AB4A4ED002BD14C /* GLKit.framework */,
+				216A24001AB4A4E0002BD14C /* OpenGLES.framework */,
+				216A23C71AB49A85002BD14C /* SolarSystem */,
+				216A23E11AB49A85002BD14C /* SolarSystemTests */,
+				216A23C61AB49A85002BD14C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		216A23C61AB49A85002BD14C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				216A23C51AB49A85002BD14C /* SolarSystem.app */,
+				216A23DE1AB49A85002BD14C /* SolarSystemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		216A23C71AB49A85002BD14C /* SolarSystem */ = {
+			isa = PBXGroup;
+			children = (
+				21CAEBCA1ABB3AFC003CF69B /* SolarSystem.entitlements */,
+				216A23CC1AB49A85002BD14C /* AppDelegate.h */,
+				216A23CD1AB49A85002BD14C /* AppDelegate.m */,
+				216A23EE1AB49D52002BD14C /* ImageTexture.h */,
+				216A23EF1AB49D52002BD14C /* ImageTexture.m */,
+				216A23F11AB49D77002BD14C /* SphereModel.h */,
+				216A23F21AB49D77002BD14C /* SphereModel.m */,
+				216A23CF1AB49A85002BD14C /* ViewController.h */,
+				216A23D01AB49A85002BD14C /* ViewController.m */,
+				216A23D21AB49A85002BD14C /* Main.storyboard */,
+				216A23D51AB49A85002BD14C /* Images.xcassets */,
+				216A23D71AB49A85002BD14C /* LaunchScreen.xib */,
+				216A23C81AB49A85002BD14C /* Supporting Files */,
+			);
+			path = SolarSystem;
+			sourceTree = "<group>";
+		};
+		216A23C81AB49A85002BD14C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				216A23C91AB49A85002BD14C /* Info.plist */,
+				216A23CA1AB49A85002BD14C /* main.m */,
+				216A23F41AB49D92002BD14C /* earth.png */,
+				216A240A1AB4A644002BD14C /* Main_iPad.storyboard */,
+				216A240C1AB4A644002BD14C /* Main_iPhone.storyboard */,
+				216A23F51AB49D92002BD14C /* Mars.png */,
+				216A23F61AB49D92002BD14C /* Mercury.png */,
+				216A23F71AB49D92002BD14C /* Moon.png */,
+				216A23F81AB49D92002BD14C /* Sun.png */,
+				216A23F91AB49D92002BD14C /* Venus.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		216A23E11AB49A85002BD14C /* SolarSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				216A23E41AB49A85002BD14C /* SolarSystemTests.m */,
+				216A23E21AB49A85002BD14C /* Supporting Files */,
+			);
+			path = SolarSystemTests;
+			sourceTree = "<group>";
+		};
+		216A23E21AB49A85002BD14C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				216A23E31AB49A85002BD14C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		216A23C41AB49A85002BD14C /* SolarSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 216A23E81AB49A85002BD14C /* Build configuration list for PBXNativeTarget "SolarSystem" */;
+			buildPhases = (
+				216A23C11AB49A85002BD14C /* Sources */,
+				216A23C21AB49A85002BD14C /* Frameworks */,
+				216A23C31AB49A85002BD14C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolarSystem;
+			productName = SolarSystem;
+			productReference = 216A23C51AB49A85002BD14C /* SolarSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		216A23DD1AB49A85002BD14C /* SolarSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 216A23EB1AB49A85002BD14C /* Build configuration list for PBXNativeTarget "SolarSystemTests" */;
+			buildPhases = (
+				216A23DA1AB49A85002BD14C /* Sources */,
+				216A23DB1AB49A85002BD14C /* Frameworks */,
+				216A23DC1AB49A85002BD14C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				216A23E01AB49A85002BD14C /* PBXTargetDependency */,
+			);
+			name = SolarSystemTests;
+			productName = SolarSystemTests;
+			productReference = 216A23DE1AB49A85002BD14C /* SolarSystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		216A23BD1AB49A85002BD14C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Ryan Martin";
+				TargetAttributes = {
+					216A23C41AB49A85002BD14C = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = AWCRMQBEL6;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+					216A23DD1AB49A85002BD14C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 216A23C41AB49A85002BD14C;
+					};
+				};
+			};
+			buildConfigurationList = 216A23C01AB49A85002BD14C /* Build configuration list for PBXProject "SolarSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 216A23BC1AB49A85002BD14C;
+			productRefGroup = 216A23C61AB49A85002BD14C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				216A23C41AB49A85002BD14C /* SolarSystem */,
+				216A23DD1AB49A85002BD14C /* SolarSystemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		216A23C31AB49A85002BD14C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216A23FE1AB49D92002BD14C /* Sun.png in Resources */,
+				216A23FA1AB49D92002BD14C /* earth.png in Resources */,
+				216A23FF1AB49D92002BD14C /* Venus.png in Resources */,
+				216A23D41AB49A85002BD14C /* Main.storyboard in Resources */,
+				216A23FB1AB49D92002BD14C /* Mars.png in Resources */,
+				216A240E1AB4A644002BD14C /* Main_iPad.storyboard in Resources */,
+				216A23FC1AB49D92002BD14C /* Mercury.png in Resources */,
+				216A23D91AB49A85002BD14C /* LaunchScreen.xib in Resources */,
+				216A23D61AB49A85002BD14C /* Images.xcassets in Resources */,
+				216A23FD1AB49D92002BD14C /* Moon.png in Resources */,
+				216A240F1AB4A644002BD14C /* Main_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216A23DC1AB49A85002BD14C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		216A23C11AB49A85002BD14C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216A23F31AB49D77002BD14C /* SphereModel.m in Sources */,
+				216A23D11AB49A85002BD14C /* ViewController.m in Sources */,
+				216A23F01AB49D52002BD14C /* ImageTexture.m in Sources */,
+				216A23CE1AB49A85002BD14C /* AppDelegate.m in Sources */,
+				216A23CB1AB49A85002BD14C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216A23DA1AB49A85002BD14C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216A23E51AB49A85002BD14C /* SolarSystemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		216A23E01AB49A85002BD14C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 216A23C41AB49A85002BD14C /* SolarSystem */;
+			targetProxy = 216A23DF1AB49A85002BD14C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		216A23D21AB49A85002BD14C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				216A23D31AB49A85002BD14C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		216A23D71AB49A85002BD14C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				216A23D81AB49A85002BD14C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		216A240A1AB4A644002BD14C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				216A240B1AB4A644002BD14C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		216A240C1AB4A644002BD14C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				216A240D1AB4A644002BD14C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		216A23E61AB49A85002BD14C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		216A23E71AB49A85002BD14C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		216A23E91AB49A85002BD14C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SolarSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		216A23EA1AB49A85002BD14C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SolarSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		216A23EC1AB49A85002BD14C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SolarSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolarSystem.app/SolarSystem";
+			};
+			name = Debug;
+		};
+		216A23ED1AB49A85002BD14C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SolarSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolarSystem.app/SolarSystem";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		216A23C01AB49A85002BD14C /* Build configuration list for PBXProject "SolarSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216A23E61AB49A85002BD14C /* Debug */,
+				216A23E71AB49A85002BD14C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		216A23E81AB49A85002BD14C /* Build configuration list for PBXNativeTarget "SolarSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216A23E91AB49A85002BD14C /* Debug */,
+				216A23EA1AB49A85002BD14C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		216A23EB1AB49A85002BD14C /* Build configuration list for PBXNativeTarget "SolarSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216A23EC1AB49A85002BD14C /* Debug */,
+				216A23ED1AB49A85002BD14C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 216A23BD1AB49A85002BD14C /* Project object */;
+}
